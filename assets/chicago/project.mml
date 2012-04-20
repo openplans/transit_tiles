@@ -1,0 +1,82 @@
+{
+  "bounds": [
+    -88.6294,
+    41.4118,
+    -86.943,
+    42.5975
+  ],
+  "center": [
+    -87.6297,
+    41.8736,
+    12
+  ],
+  "format": "png",
+  "interactivity": false,
+  "minzoom": 12,
+  "maxzoom": 17,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss"
+  ],
+  "Layer": [
+    {
+      "geometry": "linestring",
+      "id": "metrarail",
+      "class": "rail",
+      "Datasource": {
+        "file": "http://s3.amazonaws.com/transit_tiles/chicago/Metra_20Lines.zip",
+        "id": "railroad",
+        "project": "chicago",
+        "srs": null
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "name": "metrarail"
+    },
+    {
+      "geometry": "point",
+      "id": "metrastations",
+      "class": "stations",
+      "Datasource": {
+        "file": "http://s3.amazonaws.com/transit_tiles/chicago/Metra_20Stations.zip",
+        "id": "metrastations",
+        "project": "chicago",
+        "srs": null
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "name": "metrastations"
+    },
+    {
+      "geometry": "linestring",
+      "id": "ctarail",
+      "class": "rail",
+      "Datasource": {
+        "file": "http://s3.amazonaws.com/transit_tiles/chicago/CTA_RailLines.zip",
+        "id": "ctarail",
+        "project": "chicago",
+        "srs": null
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "name": "ctarail"
+    },
+    {
+      "geometry": "point",
+      "id": "ctastations",
+      "class": "stations",
+      "Datasource": {
+        "file": "http://s3.amazonaws.com/transit_tiles/chicago/CTA_Station.zip",
+        "id": "ctastations",
+        "project": "chicago",
+        "srs": null
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "name": "ctastations"
+    }
+  ],
+  "name": "Chicago Transit",
+  "description": "",
+  "attribution": ""
+}
