@@ -21,6 +21,8 @@ These are the cities for which transit tiles have been created. Each section inc
 
 ## Chicago
 
+![Chicago Screenshot](https://github.com/openplans/transit_tiles/raw/master/assets/chicago/img/chicago_screenshot.png)
+
 ### Spatial Data
 * [CTA Rail Lines](https://data.cityofchicago.org/Transportation/CTA-L-Rail-Lines-Shapefile/53r7-y88m)
 * [CTA Stations](https://data.cityofchicago.org/Transportation/CTA-L-Rail-Stations-Shapefile/vmyy-m9qj)
