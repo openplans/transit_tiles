@@ -14,10 +14,11 @@ We provide all of the pieces that you need to customize and generate your own ti
 * **Step 0.** [Install TileMill](http://mapbox.com/tilemill/docs/mac-install/)
 * **Step 1.** Clone this repository: `git clone git@github.com:openplans/transit_tiles.git`
 * **Step 2.** Choose the city you want and copy the project assets to your TileMill project folder. On a Mac, this is often found at `~/Documents/MapBox/project`
+  * **Note!** We cache the required spatial data on Amazon S3 and point the TileMill project file to it directly. This means that you don't have to download the data yourself. It just comes in automatically!
 * **Step 3.** Open your project in TileMill and make awesome tiles! You can find documentation for using TileMill [here](http://mapbox.com/tilemill/docs/).
 
 # Cities
-These are the cities for which transit tiles have been created. Each section includes links to the original _spatial data_, TileMill _project assets_, and _other references_.
+These are the cities for which transit tiles have been created. Each section includes links to the original (not our cached) _spatial data_, TileMill _project assets_, and _other references_.
 
 ## Chicago
 
